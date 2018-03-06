@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>俄罗斯方块</title>
+    <link rel="stylesheet" href="css/teris.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+    <div class="container">
+        <div class="terisContainer">
+        <!-- 长宽为10x24 -->
+            <div class="terisTop">
+                <div class="terisWrap">
+                    <div class="terisCarry"></div>
+                    <div class="nextWrap">
+                        <div id="terisNext"></div>
+                        <div id="scoreWrap">
+                            <p>得分</p>
+                            <strong id="score">0</strong>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="terisBottom">
+                <div class="actionBtns">
+                    <button class="terisBtn actBtns" id="alterBtn">alter</button>
+                    <button class="terisBtn actBtns" id="startBtn">start</button>
+                    <button class="terisBtn actBtns" id="leftBtn">left</button>
+                    <button class="terisBtn actBtns" id="rightBtn">right</button>
+                    <button class="terisBtn actBtns" id="topBtn">top</button>
+                    <button class="terisBtn actBtns" id="bottomBtn">bottom</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/teris.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
